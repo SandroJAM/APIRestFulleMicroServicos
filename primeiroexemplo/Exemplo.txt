@@ -1,0 +1,18 @@
+Objetivo:
+
+Criar uma API RestFull para controle de produtos!
+
+Modelo:
+      Produto: id, nome, quantidade, valor, observacao;
+
+Repositório de Produto:
+      Metodos
+          obterTodos, obterPorId. adicionar, atualizar, deletar. // Utlizamos como verbo!
+
+Serviço de Produto
+      Serviço // Pode ter regras de negócios ou não!
+      obterTodos, obterPorId. adicionar, atualizar, deletar. // Utlizamos como verbo!
+
+Controller de Produto:
+      Controller // EndPoint (Classe) principal.
+      obterTodos, obterPorId. adicionar, atualizar, deletar. // Utlizamos como verbo!
